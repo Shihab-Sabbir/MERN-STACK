@@ -1,0 +1,11 @@
+.position {
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+.position2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12% !important;
+}

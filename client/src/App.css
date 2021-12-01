@@ -1,0 +1,48 @@
+button {
+  background-color: orange;
+  width: 100px;
+  border-radius: 3px;
+  padding: auto;
+  justify-content: center;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #dee6dd;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  min-width: 50%;
+}
+
+.imgholder {
+  width: 200px;
+  height: fit-content;
+  margin-left: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+.img {
+  margin: auto;
+  width: 170px !important;
+  height: 180px;
+}
+.imginput {
+  margin-left: -20px !important;
+  min-width: 110px !important;
+  border: none;
+}
+img#search {
+  background-image: url(images/imgholder.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  /* Extra Styling */
+  padding: 5px 3px;
+  transition: 0.3s;
+}
+img#search:focus {
+  background-image: none;
+  text-indent: 0px;
+}

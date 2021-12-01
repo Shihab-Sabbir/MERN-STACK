@@ -1,0 +1,31 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.18.1"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Shihab-Sabbir",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "heroku": "^7.59.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "validator": "^13.7.0"
+  }
+}

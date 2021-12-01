@@ -1,0 +1,7 @@
+.mybg {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  background-repeat: repeat-y;
+  background-image: url(images/mybg.jpg);
+}
